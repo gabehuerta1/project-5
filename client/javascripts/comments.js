@@ -90,7 +90,7 @@ let getComment = () => {
 
 let deleteAll = () => {
   //delete all comments from db
-  //localStorage.removeItem("commentsList")
+  localStorage.removeItem("commentsList")
   window.location.reload();
 }
 
